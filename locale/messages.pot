@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-07 00:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: action-thermo.py:16
+msgid "higher"
+msgstr ""
+
+#: action-thermo.py:17
+msgid "warmer"
+msgstr ""
+
+#: action-thermo.py:18
+msgid "cooler"
+msgstr ""
+
+#: action-thermo.py:19
+msgid "lower"
+msgstr ""
+
+#: action-thermo.py:37
+msgid "Sorry, that's impossible."
+msgstr ""
+
+#: action-thermo.py:52 action-thermo.py:86
+msgid "Sorry, I don't know."
+msgstr ""
+
+#: action-thermo.py:72
+#, python-brace-format
+msgid "The heating is set to {initial}{last}."
+msgid_plural "The heating is set to {initial} and {last}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: action-thermo.py:78 action-thermo.py:123 action-thermo.py:138
+#, python-brace-format
+msgid "It is set to {degrees:n} degrees."
+msgstr ""
+
+#: action-thermo.py:83
+#, python-brace-format
+msgid "{degrees:n} degrees {in_room}"
+msgstr ""
+
+#: action-thermo.py:97
+#, python-brace-format
+msgid "It is {initial}{last}."
+msgid_plural "It is {initial} and {last}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: action-thermo.py:103
+#, python-brace-format
+msgid "It is {degrees:n} degrees."
+msgstr ""
+
+#: action-thermo.py:118
+msgid "which temperature?"
+msgstr ""
+
+#: action-thermo.py:129
+msgid "warmer or cooler?"
+msgstr ""
+
+#: action-thermo.py:133
+msgid "Sorry, I con't do this right now."
+msgstr ""

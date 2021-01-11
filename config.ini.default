@@ -1,0 +1,46 @@
+# Settings for a multi-room skill.
+#
+# The smallest possible configuration looks like this:
+#   [DEFAULT]
+#   probes = <list of keys for MQTT topics>
+#   capabilities = <list of keys for MQTT topics>
+#
+# See below for an example.
+#
+# For a multi-room setup, list each room in it's own section,
+# with the localized room name as section label and 
+# a thermometer aor thermostat device name.
+# Example:
+#
+#   [Kitchen]
+#   device = kitchen_heater
+#
+# Capabilities in the [DEFAULT] section apply to all rooms,
+# unless overridden in room sections.
+# 
+# For rooms with a Snips audio server, add a 'site_id' setting
+# with the ID of the Snips audio server
+# as given in the 'bind' setting in /etc/snips.toml.
+# This is used to infer the room if omitted.
+#
+# Rooms with no Snips devices should not have a 'site_id'.
+
+[DEFAULT]
+probes = get_temp, get_target
+capabilities = set_target
+device =
+
+# MQTT topics
+get_temp = {device}/status/temperature
+get_target = {device}/status/target
+set_target = {device}/set/target
+
+[Arbeitszimmer]
+site_id = study
+device = study
+
+[Küche]
+device = kitchen
+
+[Badezimmer]
+device = bathroom
